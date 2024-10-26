@@ -1,0 +1,201 @@
+body {
+    background-color: #FCFAEE;
+    height: 100%;
+    transition: background-color 0.3s ease;
+    padding: 3%;
+    overflow: hidden;
+}
+
+.container1 {
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+    justify-content: space-evenly;
+    width: fit-content;
+}
+
+.container2 {
+    display: flex;
+    width: 60%;
+}
+
+.ull-container {
+    align-self: center;
+    justify-self: flex-start;
+    width: fit-content;
+}
+
+.ull-container :hover {
+    color: #FCFAEE;
+    transition: color 0.3s ease;
+    cursor: pointer;
+}
+
+.ull-container a :hover {
+    color: #FCFAEE;
+    transition: color 0.3s ease;
+    cursor: pointer;
+}
+
+.topic-container {
+    align-self: center;
+    justify-self: flex-start;
+    width: fit-content;
+    height: 13em;
+}
+
+.ull-container a {
+    font-family: Trebuchet MS, sans-serif;
+    font-size: 15em;
+    color: #3C3D37;
+    text-decoration: none;
+}
+
+#lamb {
+    font-family: Trebuchet MS, sans-serif;
+    font-size: 5em;
+    color: #3C3D37;
+}
+
+.img {
+    display: flex;
+    justify-self: center;
+    align-self: center; 
+    margin-right: 5em;
+}
+
+.img img {
+    width: 100%;
+    max-width: 100%;
+    height: auto; 
+    border-radius: 25px;
+}
+
+.page-container {
+    display: flex;
+    justify-content: space-between;
+    height: 90%;
+}
+
+
+.bottom-right2 {
+    align-self: center;
+    justify-self: flex-start;
+    height: auto;
+    width: fit-content;
+    cursor: default;
+}
+
+.br2 {
+    font-family: Trebuchet MS, sans-serif;
+    font-size: 1.5em;
+    color: #3C3D37;
+    text-align: left;
+    position: relative;
+    display: inline-block;
+    transition: color 0.2s ease-in-out;
+}
+
+.br2::after {
+    content: "come back to me\A with warmth, you trickster\A that is what you have stolen";
+    position: absolute;
+    visibility: hidden;
+    opacity: 0;
+    left: 0;
+    top: 0;
+    color: #3C3D37;
+    white-space: pre;
+    transition: opacity 0.2s ease-in-out, visibility 0s 0.2s;
+}
+
+.br2:hover {
+    color: transparent;
+}
+
+.br2:hover::after {
+    visibility: visible;
+    opacity: 1;
+}
+
+
+.bottom-right3 {
+    align-self: center;
+    justify-self: flex-start;
+    height: auto;
+    width: fit-content;
+    cursor: default;
+}
+
+.br3 {
+    font-family: Trebuchet MS, sans-serif;
+    font-size: 1.5em;
+    color: #3C3D37;
+    text-align: left;
+    position: relative;
+    display: inline-block;
+    transition: color 0.2s ease-in-out;
+}
+
+
+.br3::after {
+    content: "months of life\A months of life\A months of life\A months of life\A -\A months of life\A";
+    position: absolute;
+    visibility: hidden;
+    opacity: 0;
+    transition: visibility 0s, opacity 0.3s ease-in-out;
+    left: 0;
+    top: 0;
+    color: #3C3D37;
+    white-space: pre;
+    transition: opacity 0.2s ease-in-out, visibility 0s 0.2s;
+}
+
+.br3:hover::after {
+    visibility: visible;
+    opacity: 1;
+}
+
+.br3:hover {
+    color: transparent;
+}
+
+.bottom-right4 {
+    align-self: center;
+    justify-self: flex-start;
+    height: auto;
+    width: fit-content;
+    cursor: default;
+}
+
+.br4 {
+    font-family: Trebuchet MS, sans-serif;
+    font-size: 1.5em;
+    color: #3C3D37;
+    text-align: left;
+    position: relative;
+    display: inline-block;
+    transition: color 0.2s ease-in-out;
+}
+
+.br4::after {
+    content: "and I sit here\A and knit with my thoughts.";
+    position: absolute;
+    visibility: hidden;
+    opacity: 0;
+    transition: visibility 0s, opacity 0.3s ease-in-out;
+    left: 0;
+    top: 0;
+    color: #3C3D37;
+    white-space: pre;
+    transition: opacity 0.2s ease-in-out, visibility 0s 0.2s;
+}
+
+.br4:hover::after {
+    visibility: visible;
+    opacity: 1;
+
+}
+
+.br4:hover {
+    color: transparent;
+}
